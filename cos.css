@@ -42,13 +42,56 @@
 .navbar ul li:hover::after{
 	width: 100%;
 }
-.email{
-	margin: 0;
-	height: 100vh;
+.name{
+	width: 300px;
+	padding: 10px;
+	margin: auto;
+	height: 3vh ;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+}
+.email{
+	width: 300px;
+	padding: 10px;
+	margin: auto;
+	height: 3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.message{
+	width: 300px;
+	padding: 10px;
+	margin: auto;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.submit
+{
+	width: 10%;
+	padding: 20px;
+	margin: auto;
+	height: 3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+label
+{
+    width: 75%;
+	margin: 1vh;
+	padding: 8px;
+	padding-top: 30px;
+	height: 3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
 }
 .Thankyou{
 	margin: 0;
