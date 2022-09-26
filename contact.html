@@ -15,14 +15,17 @@
        			<li><a href="about.html">ABOUT</a></li>
        		</ul>
        	</div>
-       	<div class="email">
+       	<div class="contact1">
        		<form action="https://formsubmit.co/ahsivamo@gmail.com" method="POST">
-       			<input type="hidden" name="_subject" value="New Gmail!">
-                  <input type="text" name="name" required placeholder="Name">
-                  <input type="email" name="email" required placeholder="Email Address">
-                  <input type="text" name="message" required placeholder="Message">
+       		<input type="hidden" name="_subject" value="New Gmail!">
+       		<label>Name :</label><br>
+                  <input type="text" name="name" required placeholder="Name" class="name"><br>
+                  <label>Email :</label><br>
+                  <input type="email" name="email" required placeholder="Email Address" class="email"><br>
+                  <label>Message :</label><br>
+                  <textarea name="message" required placeholder="Message" class="message"></textarea><br>
                   <input type="hidden" name="_next" value="thankyou.html">
-                  <button type="submit">Send</button>
+                  <button type="submit"class="submit">Send</button>
                  
        			
        		</form>
